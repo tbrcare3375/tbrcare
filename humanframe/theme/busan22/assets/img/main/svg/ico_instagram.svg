@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="62.641px" height="61.602px" viewBox="0 0 62.641 61.602" enable-background="new 0 0 62.641 61.602" xml:space="preserve">
+<g id="레이어_2_1_">
+	<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="13.9431" y1="60.2668" x2="48.6992" y2="0.0672">
+		<stop  offset="0" style="stop-color:#FFCE3B"/>
+		<stop  offset="0.3842" style="stop-color:#DE277F"/>
+		<stop  offset="1" style="stop-color:#793E94"/>
+	</linearGradient>
+	<path fill="url(#SVGID_1_)" d="M59.576,48.211c0,5.521-4.477,10-10,10H13.065c-5.522,0-10-4.479-10-10V12.122
+		c0-5.523,4.478-10,10-10h36.512c5.523,0,10,4.477,10,10V48.211z"/>
+</g>
+<g id="레이어_3">
+	<path fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" d="M48.643,40.517c0,3.722-2.883,6.739-6.438,6.739
+		H20.437c-3.557,0-6.438-3.018-6.438-6.739v-20.7c0-3.723,2.882-6.74,6.438-6.74h21.769c3.555,0,6.438,3.017,6.438,6.74V40.517z"/>
+	<circle fill="none" stroke="#FFFFFF" stroke-width="4" stroke-miterlimit="10" cx="31.32" cy="31.802" r="7.818"/>
+</g>
+<g id="레이어_4">
+	<circle fill="#FFFFFF" cx="41.821" cy="19.635" r="2.22"/>
+</g>
+</svg>

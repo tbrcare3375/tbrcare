@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" width="39.334px" height="28.667px" viewBox="0 0 39.334 28.667" enable-background="new 0 0 39.334 28.667"
+	 xml:space="preserve">
+<g>
+	<path fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10" d="M14.955,25.104c0,0.892-0.723,1.615-1.615,1.615
+		H4.588c-0.892,0-1.615-0.724-1.615-1.615v-4.847c0-0.893,0.723-1.616,1.615-1.616h8.752c0.892,0,1.615,0.724,1.615,1.616V25.104z"
+		/>
+	<path fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10" d="M36.361,25.104c0,0.892-0.723,1.615-1.615,1.615
+		h-8.752c-0.892,0-1.615-0.724-1.615-1.615v-4.847c0-0.893,0.724-1.616,1.615-1.616h8.752c0.893,0,1.615,0.724,1.615,1.616V25.104z"
+		/>
+	<path fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10" d="M25.23,8.41c0,0.892-0.723,1.616-1.615,1.616
+		h-8.751c-0.892,0-1.616-0.724-1.616-1.616V3.563c0-0.892,0.724-1.616,1.616-1.616h8.751c0.893,0,1.615,0.724,1.615,1.616V8.41z"/>
+	<polyline fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10" points="8.964,17.833 8.964,13.93 30.37,13.93 
+		30.37,17.833 	"/>
+	<line fill="none" stroke="#fff" stroke-width="2" stroke-miterlimit="10" x1="19.239" y1="13.93" x2="19.239" y2="10.025"/>
+</g>
+<path fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" d="
+	M-50.814,18.342l-4.002-1.277c-1.521-0.486-2.554-1.901-2.554-3.497v-0.27c1.199-0.511,2.04-1.699,2.04-3.085V5.8
+	c0-1.853-1.501-3.354-3.353-3.354h-1.854c-1.852,0-3.354,1.501-3.354,3.354v4.413c0,1.386,0.842,2.574,2.041,3.085v0.27
+	c0,1.595-1.033,3.01-2.554,3.497l-4.003,1.277c-1.695,0.541-2.845,2.115-2.845,3.895v3.984h23.283v-3.984
+	C-47.967,20.457-49.119,18.883-50.814,18.342z"/>
+</svg>

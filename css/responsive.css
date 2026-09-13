@@ -1,0 +1,686 @@
+/* Responsive Design */
+
+/* Large Desktop (1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1400px;
+    }
+    
+    .slide-text h2 {
+        font-size: 3rem;
+    }
+    
+    .content-grid {
+        gap: 60px;
+    }
+}
+
+/* Desktop (992px to 1199px) */
+@media (max-width: 1199px) {
+    .nav-menu {
+        gap: 30px;
+    }
+    
+    .search-input {
+        width: 150px;
+    }
+    
+    .slide-text h2 {
+        font-size: 2.2rem;
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px;
+    }
+}
+
+/* Tablet (768px to 991px) */
+@media (max-width: 991px) {
+    .header-content {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .main-nav {
+        position: static;
+        transform: none;
+        order: 3;
+        width: 100%;
+        margin: 0;
+    }
+    
+    .nav-menu {
+        justify-content: flex-start;
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+    
+    .header-links-left {
+        gap: 20px;
+    }
+    
+    .quick-links,
+    .utility-links {
+        gap: 10px;
+    }
+    
+    .hero-slider {
+        height: 400px;
+    }
+    
+    .slide-text h2 {
+        font-size: 2rem;
+    }
+    
+    .slide-text p {
+        font-size: 1rem;
+    }
+    
+    .content-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .stat-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 25px;
+    }
+    
+    .footer-bottom-content {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+}
+
+/* Mobile Large (576px to 767px) */
+@media (max-width: 767px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .header-top {
+        padding: 6px 0;
+    }
+    
+    .logo-text {
+        font-size: 13px;
+    }
+    
+    .lang-link {
+        font-size: 11px;
+        padding: 3px 6px;
+    }
+    
+    .search-link {
+        font-size: 13px;
+    }
+    
+    .header-main {
+        padding: 10px 0;
+    }
+    
+    .header-content {
+        justify-content: space-between;
+    }
+    
+    .header-links {
+        display: none;
+    }
+    
+    .main-nav {
+        display: none;
+    }
+    
+    .mobile-menu-toggle {
+        display: flex;
+    }
+    
+    .hero-slider {
+        height: 300px;
+    }
+    
+    .slide-text h2 {
+        font-size: 20px;
+    }
+    
+    .slide-text p {
+        font-size: 14px;
+    }
+    
+    .slide-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .content-area {
+        padding: 40px 0;
+    }
+    
+    .section-title {
+        font-size: 16px;
+    }
+    
+    .notice-board,
+    .news-section,
+    .quick-services,
+    .statistics,
+    .weather-widget {
+        padding: 20px;
+    }
+    
+    .notice-item {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+    
+    .notice-category {
+        margin-right: 0;
+        margin-bottom: 5px;
+    }
+    
+    .notice-date {
+        margin-left: 0;
+        align-self: flex-end;
+    }
+    
+    .news-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .news-image {
+        width: 100%;
+        height: 150px;
+    }
+    
+    .service-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .service-item {
+        padding: 15px 5px;
+    }
+    
+    .service-item i {
+        font-size: 1.2rem;
+    }
+    
+    .service-item span {
+        font-size: 11px;
+    }
+    
+    .stat-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .stat-item {
+        padding: 15px;
+    }
+    
+    .stat-number {
+        font-size: 1.5rem;
+    }
+    
+    .weather-main {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .weather-temp {
+        font-size: 1.5rem;
+    }
+    
+    .footer-main {
+        padding: 30px 0 20px;
+    }
+    
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .footer-links {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    
+    .social-links {
+        justify-content: center;
+        margin-top: 15px;
+    }
+}
+
+/* Mobile Small (up to 575px) */
+@media (max-width: 575px) {
+    .container {
+        padding: 0 10px;
+    }
+    
+    .logo-text {
+        font-size: 18px;
+    }
+    
+    .hero-slider {
+        height: 250px;
+    }
+    
+    .slide-text {
+        padding: 0 15px;
+    }
+    
+    .slide-text h2 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    
+    .slide-text p {
+        font-size: 13px;
+        margin-bottom: 15px;
+    }
+    
+    .slide-btn {
+        padding: 8px 16px;
+        font-size: 12px;
+    }
+    
+    .content-area {
+        padding: 30px 0;
+    }
+    
+    .section-title {
+        font-size: 15px;
+    }
+    
+    .notice-board,
+    .news-section,
+    .quick-services,
+    .statistics,
+    .weather-widget {
+        padding: 15px;
+    }
+    
+    .service-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .service-item {
+        flex-direction: row;
+        padding: 15px;
+        gap: 10px;
+    }
+    
+    .service-item i {
+        font-size: 1.5rem;
+        margin-bottom: 0;
+    }
+    
+    .service-item span {
+        font-size: 14px;
+    }
+    
+    .stat-grid {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+    
+    .stat-item {
+        padding: 12px;
+    }
+    
+    .stat-number {
+        font-size: 1.3rem;
+    }
+    
+    .stat-label {
+        font-size: 11px;
+    }
+    
+    .weather-details {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .footer-content {
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+    }
+    
+    .footer-section h4 {
+        margin-bottom: 15px;
+    }
+    
+    .contact-info {
+        text-align: center;
+    }
+    
+    .contact-info p {
+        justify-content: center;
+    }
+    
+    .footer-links {
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .footer-links a {
+        font-size: 12px;
+    }
+    
+    .copyright p {
+        font-size: 12px;
+    }
+    
+    .scroll-to-top {
+        bottom: 20px;
+        right: 20px;
+        width: 45px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
+/* Mobile Menu Styles */
+@media (max-width: 767px) {
+    .mobile-nav {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 80%;
+        height: 100vh;
+        background: #fff;
+        z-index: 2000;
+        transition: left 0.3s ease;
+        box-shadow: 2px 0 10px rgba(0,0,0,0.1);
+        overflow-y: auto;
+    }
+    
+    .mobile-nav.active {
+        left: 0;
+    }
+    
+    .mobile-nav-header {
+        padding: 20px;
+        background: #1e3a8a;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .mobile-nav-close {
+        background: none;
+        border: none;
+        color: #fff;
+        font-size: 24px;
+        cursor: pointer;
+    }
+    
+    .mobile-nav-links {
+        padding: 15px 20px;
+        background: #f8f9fa;
+        border-bottom: 1px solid #e2e8f0;
+    }
+    
+    .mobile-quick-links,
+    .mobile-utility-links {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 10px;
+    }
+    
+    .mobile-quick-links:last-child,
+    .mobile-utility-links:last-child {
+        margin-bottom: 0;
+    }
+    
+    .mobile-quick-links a,
+    .mobile-utility-links a {
+        color: #333;
+        text-decoration: none;
+        font-size: 14px;
+        transition: color 0.3s ease;
+    }
+    
+    .mobile-quick-links a:hover,
+    .mobile-utility-links a:hover {
+        color: #1e3a8a;
+    }
+    
+    .mobile-nav-menu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .mobile-nav-item {
+        border-bottom: 1px solid #f1f5f9;
+    }
+    
+    .mobile-nav-link {
+        display: block;
+        padding: 15px 20px;
+        color: #333;
+        text-decoration: none;
+        font-weight: 500;
+        transition: background 0.3s ease;
+    }
+    
+    .mobile-nav-link:hover {
+        background: #f8f9fa;
+        color: #1e3a8a;
+    }
+    
+    .mobile-nav-link i {
+        margin-right: 10px;
+        width: 20px;
+    }
+    
+    .mobile-submenu {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        background: #f8f9fa;
+    }
+    
+    .mobile-submenu li {
+        border-bottom: 1px solid #e2e8f0;
+    }
+    
+    .mobile-submenu li:last-child {
+        border-bottom: none;
+    }
+    
+    .mobile-submenu a {
+        display: block;
+        padding: 12px 20px 12px 50px;
+        color: #666;
+        text-decoration: none;
+        font-size: 14px;
+        transition: all 0.3s ease;
+    }
+    
+    .mobile-submenu a:hover {
+        background: #e2e8f0;
+        color: #1e3a8a;
+        padding-left: 55px;
+    }
+    
+    .mobile-overlay {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.5);
+        z-index: 1500;
+        opacity: 0;
+        visibility: hidden;
+        transition: all 0.3s ease;
+    }
+    
+    .mobile-overlay.active {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header,
+    .footer,
+    .mobile-menu-toggle,
+    .swiper-button-next,
+    .swiper-button-prev,
+    .swiper-pagination,
+    .scroll-to-top {
+        display: none !important;
+    }
+    
+    .hero-slider {
+        height: auto;
+    }
+    
+    .slide-overlay {
+        position: static;
+        background: none;
+        color: #333;
+    }
+    
+    .slide-text h2 {
+        color: #333;
+        text-shadow: none;
+    }
+    
+    .content-area {
+        padding: 20px 0;
+    }
+    
+    .container {
+        max-width: none;
+        padding: 0;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+    
+    .section-title {
+        font-size: 14pt;
+        border-bottom: 2px solid #333;
+    }
+    
+    .notice-item,
+    .news-item {
+        break-inside: avoid;
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    .header {
+        border-bottom: 2px solid #000;
+    }
+    
+    .nav-link::after {
+        background: #000;
+    }
+    
+    .section-title {
+        border-bottom-color: #000;
+    }
+    
+    .notice-category {
+        background: #000;
+    }
+    
+    .service-item:hover {
+        background: #000;
+    }
+    
+    .stat-item {
+        background: #000;
+    }
+}
+
+/* Reduced Motion */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+    
+    .swiper {
+        --swiper-navigation-size: 0;
+    }
+    
+    .swiper-button-next,
+    .swiper-button-prev {
+        display: none;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #e5e5e5;
+    }
+    
+    .header {
+        background: #2d2d2d;
+        border-bottom: 1px solid #404040;
+    }
+    
+    .notice-board,
+    .news-section,
+    .quick-services,
+    .statistics,
+    .weather-widget {
+        background: #2d2d2d;
+        border: 1px solid #404040;
+    }
+    
+    .nav-link {
+        color: #e5e5e5;
+    }
+    
+    .notice-title,
+    .news-title {
+        color: #e5e5e5;
+    }
+    
+    .service-item {
+        background: #404040;
+        color: #e5e5e5;
+    }
+    
+    .search-form {
+        background: #404040;
+        border-color: #666;
+    }
+    
+    .search-input {
+        color: #e5e5e5;
+    }
+    
+    .search-input::placeholder {
+        color: #999;
+    }
+}

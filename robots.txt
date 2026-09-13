@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://tbrcare.co.kr/sitemap.xml
+
+Crawl-delay: 1
+
+Disallow: /admin/
+Disallow: /private/
+Disallow: /temp/
+Disallow: /test/

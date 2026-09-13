@@ -1,0 +1,7 @@
+# Local / tooling
+.playwright-mcp/
+_recovered_replay/
+_extract_shell28.py
+*.log
+.DS_Store
+Thumbs.db

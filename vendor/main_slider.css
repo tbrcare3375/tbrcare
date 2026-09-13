@@ -1,0 +1,318 @@
+@charset "UTF-8";
+.main_slide_pc{display:block !important;}
+.main_slide_mobile{display:none !important;}
+/* .header .mo .btn-link span{
+	color:#333;
+} */
+.fp-ct .se01{
+	height:100vh;
+}
+.fp-ct .se01 .search-box{
+	bottom:76px;
+}
+/* .info-logo .logo-link, #header .hd-logo .logo-link {
+    background-image: url(../../../../global/assets/img/common/busan_logo.svg);
+}
+.info-ul a{
+	color:#222;
+}
+.info-ul .info-list .global-sel:after {
+    right: 0;
+    background: url(../img/main/ico_arrow_down_b.png) no-repeat 50% 60%;
+    transition: 0.4s;
+} */
+/* .hd-gnb.pc .depth01-link{
+	color:#222
+}
+.hd-searchbox {
+    background: url(../img/main/ico_search_b.png) no-repeat center;
+} */
+/* .header .pc .btn-link span {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #222;
+    transition: all 0.4s ease-in-out;
+} */
+.rad_area_2{
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin: 50px 0 0;
+}
+.fp-ct .section.se01{
+    background: #e6e5e0;
+}
+.fp-ct .se02{
+	padding-top:50px;
+}
+.mainimg-slider .swiper-slide{
+	display:block;
+	position:relative;
+}
+.mainimg-slider .swiper-slide img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+.mainimg-slider .swiper-slide.bg_basic img{
+	object-fit:cover;
+	
+}
+.slide_content_bx{
+    display: flex;
+    width: 440px;
+    height: 100%;
+    position: absolute;
+    top: 47.5%;
+    left: 50%;
+    z-index: 10;
+    transform: translateX(-130%);
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0 0 60px;
+}
+.slide_content_bx.p-l-100{
+    left: 98%;
+    align-items: center;
+    top: 47.5%;
+    text-align: left;
+}
+
+.slide_content_bx > div > img{
+    width: auto;
+    height: auto;
+    position: inherit !important;
+}
+.slide_content_bx .txt_bx{
+	width:100%;
+	max-width:380px;
+}
+.slide_content_bx .logo_bx{
+	margin-top:48px;
+}
+.d-day_bx > .title{
+    font-weight: 900;
+    font-size: 1em;
+    line-height: 1em;
+    color: #231e20;
+    padding-left: 10px;
+}
+.d-day_bx > .d-day{
+	font-size: 5.2em;
+    font-weight: 100;
+    line-height: 1em;
+    color: #6d6e70;
+    margin-top: 0;
+}
+
+.fp-ct .section.main-visual.expo_re > img{
+	width:100%;
+	height:100%;
+	object-fit:contain;
+}
+
+.fp-ct .section.main-visual.expo_re > img.pc{
+	display:block;
+}
+.fp-ct .section.main-visual.expo_re > img.mo{
+	display:none;
+}
+
+.fp-ct .section.main-visual.expo_re_b{
+	background:#f6f7f3;
+}
+.fp-ct .section.main-visual.expo_re_b > img{
+	width:100%;
+	height:100%;
+	object-fit:contain;
+}
+
+.fp-ct .section.main-visual.expo_re_b > img.pc{
+	display:block;
+}
+.fp-ct .section.main-visual.expo_re_b > img.ta{
+	display:none;
+}
+.fp-ct .section.main-visual.expo_re_b > img.mo{
+	display:none;
+}
+@media screen and (max-width: 1300px){
+	.slide_content_bx{
+	width:280px;
+	transform:translateX(-150%);
+	}
+	.slide_content_bx .txt_bx {
+    margin-top: 40px;
+	}
+}
+
+@media screen and (max-width: 1024px){
+	.slide_content_bx {
+    width: 220px;
+    bottom:100px;
+	}
+	.d-day_bx > .title{
+	font-size:1.1em;
+	}
+	.d-day_bx > .d-day{
+	font-size:4.875em;}
+	
+	
+	
+	.fp-ct .section.main-visual.expo_re{
+		background:#eeefeb;
+	}
+	.fp-ct .section.main-visual.expo_re > img.pc{
+		display:none;
+	}
+	.fp-ct .section.main-visual.expo_re > img.mo{
+		display:block;
+	}
+	
+	.fp-ct .section.main-visual.expo_re_b{
+		background:linear-gradient(to bottom, #fefefe, #e3ded4);
+	}
+	.fp-ct .section.main-visual.expo_re_b > img.pc{
+		display:none;
+	}
+	.fp-ct .section.main-visual.expo_re_b > img.ta{
+		display:block;
+	}
+	.fp-ct .section.main-visual.expo_re_b > img.mo{
+		display:none;
+	}
+}
+@media screen and (max-width: 490px){
+	.fp-ct .section.main-visual.expo_re_b{
+		background:linear-gradient(to bottom, #fefefe, #ebe8df);
+	}
+	
+}
+
+
+@media screen and (max-width: 768px){
+	.main_slide_pc{display:none !important;}
+	.main_slide_mobile{display:block !important;}
+	
+	.fp-ct .section.main-visual.expo_re_b{
+		background:linear-gradient(to bottom, #fefefe, #f6f7f3);
+	}
+	
+	.fp-ct .section.main-visual.expo_re_b > img.pc{
+		display:none;
+	}
+	.fp-ct .section.main-visual.expo_re_b > img.ta{
+		display:none;
+	}
+	.fp-ct .section.main-visual.expo_re_b > img.mo{
+		display:block;
+	}
+	
+	.fp-ct .se01 .search-box {
+	    bottom: 40px;
+	}
+	.mobile_main_slide{
+		width:100%;
+		height:100%;
+	}
+	.mobile_main_slide .img_bx{
+		display:block;
+		width:auto;
+		height:100%;
+		position:relative;
+	}
+	.mobile_main_slide .img_bx> img{
+	    height: 100%;
+	    display: block;
+	    margin: 0 auto;
+	    object-fit: contain;
+	}
+	.d-day_area_mo{
+		    display: block;
+	    width: auto;
+	    position: absolute;
+	    bottom: 42.42878560%;
+	    right: 26.895833%;
+	    font-size: 2.35rem;
+	    font-weight: 600;
+	    color: #ff3097;
+	    line-height: 1em;
+	}
+
+}
+
+@media screen and (max-width: 768px){
+	.fp-ct .se01{
+		height:23vh;
+	}
+	.fp-ct .se01.half{
+		height:auto;
+    	aspect-ratio: 1906 / 936;
+	}
+}
+@media screen and (max-width: 680px){
+	
+	.fp-ct .se01.half {
+	    height: 35vh;
+	}
+}
+@media screen and (max-width: 480px){
+	.fp-ct .se01{
+		height:28vh;
+	}
+}
+.color-mgt{
+	color:#ff3097 !important;
+}
+.bg_basic{
+	background:#f2f1ef !important;
+}
+.bg_sol{
+	background:#EFEEEA !important;
+}
+.sh_on .shadow_bx{
+	display:block
+}
+.img-sd > .txt{
+	display:block;
+	position:absolute;
+	width:100%;
+	bottom:0;
+	left:0;
+	background:rgba(0,0,0,0.8);
+	text-align:center;
+	color:#fff;
+    padding: 26px 0 25px;
+	font-size:2.0rem;
+	line-height:1em;
+}
+@media screen and (max-width: 1023px){
+	.img-sd > .txt{
+		font-size:1.8rem;
+	}
+}
+@media screen and (max-width: 768px){
+	.fp-ct .se01.test{
+	height:37vh;
+	}
+	.img-sd > .txt{
+		font-size:1.5rem;
+		word-break:keep-all;
+		line-height:1.2em;
+		padding:14px 32px 12px;
+	}
+	.img-sd > .txt > p{
+		white-space:pre-line;
+	}
+}
+/* .fp-ct .se01.half .video-bg{
+	width:auto;
+} */
+	
