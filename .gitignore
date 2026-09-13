@@ -5,3 +5,7 @@ _extract_shell28.py
 *.log
 .DS_Store
 Thumbs.db
+
+_seo_apply.py
+*.html.new
+
