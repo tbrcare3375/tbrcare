@@ -368,13 +368,23 @@
 .care-site #header .info-ul a,
 .care-site #header.active .info-ul a,
 .care-site #header.slide .info-ul a {
-  color: var(--care-magenta) !important;
-  font-weight: 700;
+  color: #222 !important;
 }
 
 .care-site:not(.care-sub) #header.header:not(.active):not(.slide) .info-ul a {
   color: #fff !important;
   text-shadow: 0 1px 8px rgba(0, 0, 0, 0.35);
+}
+
+/* 전화번호만 분홍 (초기 투명 헤더 포함) */
+.care-site #header .info-ul a[href^="tel:"],
+.care-site #header.active .info-ul a[href^="tel:"],
+.care-site #header.slide .info-ul a[href^="tel:"],
+.care-site:not(.care-sub) #header.header:not(.active):not(.slide) .info-ul a[href^="tel:"],
+.care-site #header .info-ul a[href^="tel:"] span {
+  color: var(--care-magenta) !important;
+  font-weight: 700;
+  text-shadow: none !important;
 }
 
 .care-site #header .hd-sitemap .btn-link span:not(.acces_txt),
