@@ -368,7 +368,8 @@
 .care-site #header .info-ul a,
 .care-site #header.active .info-ul a,
 .care-site #header.slide .info-ul a {
-  color: #222 !important;
+  color: var(--care-magenta) !important;
+  font-weight: 700;
 }
 
 .care-site:not(.care-sub) #header.header:not(.active):not(.slide) .info-ul a {
