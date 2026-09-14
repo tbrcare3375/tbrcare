@@ -33,7 +33,7 @@
 <link rel="stylesheet" href="humanframe/theme/busan22/assets/css/main2.css">
 <link rel="stylesheet" href="humanframe/theme/busan22/assets/css/content.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&family=Jua&display=swap">
-<link rel="stylesheet" href="css/care.css?v=20260914n">
+<link rel="stylesheet" href="css/care.css?v=20260914p">
 <script src="vendor/jquery/jquery.min.js"></script>
 <script src="vendor/jquery/jquery-migrate-1.2.1.min.js"></script>
 <script src="vendor/plugins/jquery.cookie.js"></script>
@@ -202,11 +202,11 @@
 <div class="content care-prose">
         <div class="sub_title"><h4>공지사항</h4></div>
         <div class="care-notice-list care-notice-list--board" style="margin-bottom:40px;">
-          <a href="#n1">
+          <a href="#n1" data-notice="n1" class="is-active">
             <span class="tit">더바른재가복지센터 홈페이지를 오픈하였습니다.</span>
             <span class="date">2026-03-20</span>
           </a>
-          <a href="#n2">
+          <a href="#n2" data-notice="n2">
             <span class="tit">방문요양·가족요양 상담 안내 (평일 09:00~18:00)</span>
             <span class="date">2026-03-20</span>
           </a>
@@ -216,14 +216,19 @@
           </a>
         </div>
 
-        <h4 class="h4Bl" id="n1">홈페이지 오픈 안내</h4>
-        <div class="h4Section">
-          <p>더바른재가복지센터 공식 홈페이지가 오픈되었습니다. 방문요양·가족요양 안내와 상담 연락처를 확인해 주세요.</p>
-        </div>
-
-        <h4 class="h4Bl" id="n2">상담 시간 안내</h4>
-        <div class="h4Section">
-          <p>평일 09:00 ~ 18:00 상담이 가능합니다. 전화 <a href="tel:070-4042-3375">070-4042-3375</a>, 이메일 <a href="mailto:tbrcare3375@gmail.com">tbrcare3375@gmail.com</a></p>
+        <div class="care-notice-panels">
+          <article class="care-notice-panel is-active" id="n1">
+            <h4 class="h4Bl">홈페이지 오픈 안내</h4>
+            <div class="h4Section">
+              <p>더바른재가복지센터 공식 홈페이지가 오픈되었습니다. 방문요양·가족요양 안내와 상담 연락처를 확인해 주세요.</p>
+            </div>
+          </article>
+          <article class="care-notice-panel" id="n2" hidden>
+            <h4 class="h4Bl">상담 시간 안내</h4>
+            <div class="h4Section">
+              <p>평일 09:00 ~ 18:00 상담이 가능합니다. 전화 <a href="tel:070-4042-3375">070-4042-3375</a>, 이메일 <a href="mailto:tbrcare3375@gmail.com">tbrcare3375@gmail.com</a></p>
+            </div>
+          </article>
         </div>
       </div>
     </div>
@@ -335,5 +340,39 @@ $(function () {
 </script>
 
 <script src="js/care-gnb.js"></script>
+
+<script>
+$(function () {
+  var $list = $('.care-notice-list a[data-notice]');
+  var $panels = $('.care-notice-panel');
+  function showNotice(id) {
+    if (!id) return;
+    $list.removeClass('is-active');
+    $list.filter('[data-notice="' + id + '"]').addClass('is-active');
+    $panels.removeClass('is-active').attr('hidden', true);
+    var $panel = $('#' + id);
+    if ($panel.length) {
+      $panel.addClass('is-active').removeAttr('hidden');
+    }
+  }
+  $list.on('click', function (e) {
+    e.preventDefault();
+    var id = $(this).data('notice');
+    showNotice(id);
+    if (history.replaceState) {
+      history.replaceState(null, '', '#' + id);
+    } else {
+      location.hash = id;
+    }
+  });
+  var hash = (location.hash || '').replace(/^#/, '');
+  if (hash && $('#' + hash).hasClass('care-notice-panel')) {
+    showNotice(hash);
+  } else {
+    showNotice('n1');
+  }
+});
+</script>
+
 </body>
 </html>
